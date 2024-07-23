@@ -1,6 +1,6 @@
 # Multimodal Machine Learning
 
-## Course content + workshops
+## Course content
 
 Check out our comprehsensive tutorial paper [Foundations and Recent Trends in Multimodal Machine Learning: Principles, Challenges, and Open Questions](https://arxiv.org/abs/2209.03430).
 
