@@ -1,1 +1,30 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <button id="paperBtn">Paper</button>
+    <button id="projectBtn">Project</button>
+    <div id="content" style="margin-top: 20px;"></div>
+
+    <script>
+        document.getElementById('paperBtn').addEventListener('click', function() {
+            fetch('README.md')
+                .then(response => response.text())
+                .then(text => {
+                    document.getElementById('content').innerHTML = marked.parse(text);
+                })
+                .catch(err => console.error(err));
+        });
+
+        // Optional: Clear the content when clicking "Project" if needed
+        document.getElementById('projectBtn').addEventListener('click', function() {
+            document.getElementById('content').innerHTML = "<p>Project content goes here...</p>";
+        });
+    </script>
+</body>
+</html>
