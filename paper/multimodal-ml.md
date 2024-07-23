@@ -107,6 +107,8 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 ### Missing or Imperfect Modalities
 
+[UniMF: A Unified Multimodal Framework for Multimodal Sentiment Analysis in Missing Modalities and Unaligned Multimodal Sequences](https://ieeexplore.ieee.org/document/10339893), 2024
+
 [A Variational Information Bottleneck Approach to Multi-Omics Data Integration](https://arxiv.org/abs/2102.03014), AISTATS 2021 [[code]](https://github.com/chl8856/DeepIMV)
 
 [SMIL: Multimodal Learning with Severely Missing Modality](https://arxiv.org/abs/2103.05677), AAAI 2021
