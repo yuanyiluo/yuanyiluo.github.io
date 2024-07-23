@@ -21,11 +21,9 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
   * [Generative Learning](#generative-learning)
   * [Human in the Loop Learning](#human-in-the-loop-learning)
 * [Applications and Datasets](#applications-and-datasets)
-  * [Multi-agent Communication](#multi-agent-communication)
   * [Commonsense Reasoning](#commonsense-reasoning)
   * [Multimodal Reinforcement Learning](#multimodal-reinforcement-learning)
   * [Affect Recognition and Multimodal Language](#affect-recognition-and-multimodal-language)
-  * [Healthcare](#healthcare)
   * [Human AI Interaction](#Human-AI-Interaction)
 * [Workshops](#workshops)
 * [Tutorials](#tutorials)
@@ -127,12 +125,6 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 [Embedding Multimodal Relational Data for Knowledge Base Completion](https://arxiv.org/abs/1809.01341), EMNLP 2018
 
-[A Multimodal Translation-Based Approach for Knowledge Graph Representation Learning](https://www.aclweb.org/anthology/S18-2027), SEM 2018 [[code]](https://github.com/UKPLab/starsem18-multimodalKB)
-
-[Order-Embeddings of Images and Language](https://arxiv.org/abs/1511.06361), ICLR 2016 [[code]](https://github.com/ivendrov/order-embedding)
-
-[Building a Large-scale Multimodal Knowledge Base System for Answering Visual Queries](https://arxiv.org/abs/1507.05670), arXiv 2015
-
 ### Generative Learning
 
 [MMVAE+: Enhancing the Generative Quality of Multimodal VAEs without Compromises](https://openreview.net/forum?id=sdQGxouELX), ICLR 2023 [[code]](https://github.com/epalu/mmvaeplus)
@@ -152,9 +144,6 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 [Human-centric dialog training via offline reinforcement learning](https://arxiv.org/abs/2010.05848), EMNLP 2020 [[code]](https://github.com/natashamjaques/neural_chat/tree/master/BatchRL)
 
-[Human-In-The-Loop Machine Learning with Intelligent Multimodal Interfaces](https://csjzhou.github.io/homepage/papers/ICML2017_Syed.pdf), ICML 2017 workshop
-
-
 
 ## Applications and Datasets
 
@@ -172,82 +161,6 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 [Iterative Answer Prediction with Pointer-Augmented Multimodal Transformers for TextVQA](https://arxiv.org/abs/1911.06258), CVPR 2020
 
-[Interactive Language Learning by Question Answering](https://arxiv.org/abs/1908.10909), EMNLP 2019 [[code]](https://github.com/xingdi-eric-yuan/qait_public)
-
-[Fusion of Detected Objects in Text for Visual Question Answering](https://arxiv.org/abs/1908.05054), arXiv 2019 
-
-[RUBi: Reducing Unimodal Biases in Visual Question Answering](https://arxiv.org/abs/1906.10169), NeurIPS 2019 [[code]](https://github.com/cdancette/rubi.bootstrap.pytorch)
-
-[GQA: A New Dataset for Real-World Visual Reasoning and Compositional Question Answering](https://arxiv.org/abs/1902.09506), CVPR 2019 [[code]](https://cs.stanford.edu/people/dorarad/gqa/)
-
-[OK-VQA: A Visual Question Answering Benchmark Requiring External Knowledge](https://arxiv.org/abs/1906.00067), CVPR 2019 [[code]](http://okvqa.allenai.org/)
-
-[MUREL: Multimodal Relational Reasoning for Visual Question Answering](https://arxiv.org/abs/1902.09487), CVPR 2019 [[code]](https://github.com/Cadene/murel.bootstrap.pytorch)
-
-[Social-IQ: A Question Answering Benchmark for Artificial Social Intelligence](http://openaccess.thecvf.com/content_CVPR_2019/html/Zadeh_Social-IQ_A_Question_Answering_Benchmark_for_Artificial_Social_Intelligence_CVPR_2019_paper.html), CVPR 2019 [[code]](https://github.com/A2Zadeh/Social-IQ)
-
-[Probabilistic Neural-symbolic Models for Interpretable Visual Question Answering](https://arxiv.org/abs/1902.07864), ICML 2019 [[code]](https://github.com/kdexd/probnmn-clevr)
-
-[Learning to Count Objects in Natural Images for Visual Question Answering](https://arxiv.org/abs/1802.05766), ICLR 2018, [[code]](https://github.com/Cyanogenoid/vqa-counting)
-
-[Overcoming Language Priors in Visual Question Answering with Adversarial Regularization](https://arxiv.org/abs/1810.03649), NeurIPS 2018
-
-[Neural-Symbolic VQA: Disentangling Reasoning from Vision and Language Understanding](https://arxiv.org/abs/1810.02338), NeurIPS 2018 [[code]](https://github.com/kexinyi/ns-vqa)
-
-[RecipeQA: A Challenge Dataset for Multimodal Comprehension of Cooking Recipes](https://arxiv.org/abs/1809.00812), EMNLP 2018 [[code]](https://hucvl.github.io/recipeqa/)
-
-[TVQA: Localized, Compositional Video Question Answering](https://www.aclweb.org/anthology/D18-1167), EMNLP 2018 [[code]](https://github.com/jayleicn/TVQA)
-
-[Bottom-Up and Top-Down Attention for Image Captioning and Visual Question Answering](https://arxiv.org/abs/1707.07998), CVPR 2018 [[code]](https://github.com/facebookresearch/pythia)
-
-[Don't Just Assume; Look and Answer: Overcoming Priors for Visual Question Answering](https://arxiv.org/abs/1712.00377), CVPR 2018 [[code]](https://github.com/AishwaryaAgrawal/GVQA)
-
-[Stacked Latent Attention for Multimodal Reasoning](http://openaccess.thecvf.com/content_cvpr_2018/papers/Fan_Stacked_Latent_Attention_CVPR_2018_paper.pdf), CVPR 2018
-
-[Learning to Reason: End-to-End Module Networks for Visual Question Answering](https://arxiv.org/abs/1704.05526), ICCV 2017 [[code]](https://github.com/ronghanghu/n2nmn)
-
-[CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning](https://arxiv.org/abs/1612.06890), CVPR 2017 [[code]](https://github.com/facebookresearch/clevr-iep) [[dataset generation]](https://github.com/facebookresearch/clevr-dataset-gen)
-
-[Are You Smarter Than A Sixth Grader? Textbook Question Answering for Multimodal Machine Comprehension](https://ieeexplore.ieee.org/document/8100054/), CVPR 2017 [[code]](http://vuchallenge.org/tqa.html)
-
-[Multimodal Compact Bilinear Pooling for Visual Question Answering and Visual Grounding](https://arxiv.org/abs/1606.01847), EMNLP 2016 [[code]](https://github.com/akirafukui/vqa-mcb)
-
-[MovieQA: Understanding Stories in Movies through Question-Answering](https://arxiv.org/abs/1512.02902), CVPR 2016 [[code]](http://movieqa.cs.toronto.edu/home/)
-
-[VQA: Visual Question Answering](https://arxiv.org/abs/1505.00468), ICCV 2015 [[code]](https://visualqa.org/)
-
-### Multi-agent Communication
-
-[Multi-agent Communication meets Natural Language: Synergies between Functional and Structural Language Learning](https://arxiv.org/abs/2005.07064), ACL 2020
-
-[Emergence of Compositional Language with Deep Generational Transmission](https://arxiv.org/abs/1904.09067), ICML 2019
-
-[On the Pitfalls of Measuring Emergent Communication](https://arxiv.org/abs/1903.05168), AAMAS 2019 [[code]](https://github.com/facebookresearch/measuring-emergent-comm)
-
-[Emergent Translation in Multi-Agent Communication](https://arxiv.org/abs/1710.06922), ICLR 2018 [[code]](https://github.com/facebookresearch/translagent)
-
-[Emergent Communication in a Multi-Modal, Multi-Step Referential Game](https://openreview.net/pdf?id=rJGZq6g0-), ICLR 2018 [[code]](https://github.com/nyu-dl/MultimodalGame)
-
-[Emergence of Linguistic Communication From Referential Games with Symbolic and Pixel Input](https://openreview.net/pdf?id=HJGv1Z-AW), ICLR 2018
-
-[Emergent Communication through Negotiation](https://openreview.net/pdf?id=Hk6WhagRW), ICLR 2018 [[code]](https://github.com/ASAPPinc/emergent_comms_negotiation)
-
-[Emergence of Grounded Compositional Language in Multi-Agent Populations](https://arxiv.org/abs/1703.04908), AAAI 2018
-
-[Emergence of Language with Multi-agent Games: Learning to Communicate with Sequences of Symbols](https://arxiv.org/abs/1705.11192), NeurIPS 2017
-
-[Natural Language Does Not Emerge 'Naturally' in Multi-Agent Dialog](https://arxiv.org/abs/1706.08502), EMNLP 2017 [[code1]](https://github.com/batra-mlp-lab/lang-emerge) [[code2]](https://github.com/kdexd/lang-emerge-parlai)
-
-[Learning Cooperative Visual Dialog Agents with Deep Reinforcement Learning](https://arxiv.org/abs/1703.06585), ICCV 2017 [code](https://github.com/batra-mlp-lab/visdial-rl)
-
-[Multi-agent Cooperation and the Emergence of (natural) Language](https://arxiv.org/abs/1612.07182), ICLR 2017
-
-[Learning to Communicate with Deep Multi-agent Reinforcement Learning](https://arxiv.org/abs/1605.06676), NIPS 2016.
-
-[Learning multiagent communication with backpropagation](http://papers.nips.cc/paper/6398-learning-multiagent-communication-with-backpropagation.pdf), NIPS 2016.
-
-[The Emergence of Compositional Structures in Perceptually Grounded Language Games](https://www.cs.utexas.edu/~kuipers/readings/Vogt-aij-05.pdf), AI 2005
-
 ### Commonsense Reasoning
 
 [Adventures in Flatland: Perceiving Social Interactions Under Physical Dynamics](https://www.tshu.io/HeiderSimmel/CogSci20/Flatland_CogSci20.pdf), CogSci 2020
@@ -255,12 +168,6 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 [A Logical Model for Supporting Social Commonsense Knowledge Acquisition](https://arxiv.org/abs/1912.11599), arXiv 2019
 
 [Heterogeneous Graph Learning for Visual Commonsense Reasoning](https://arxiv.org/abs/1910.11475), NeurIPS 2019
-
-[SocialIQA: Commonsense Reasoning about Social Interactions](https://arxiv.org/abs/1904.09728), arXiv 2019
-
-[From Recognition to Cognition: Visual Commonsense Reasoning](https://arxiv.org/abs/1811.10830), CVPR 2019 [[code]](https://visualcommonsense.com/)
-
-[CommonsenseQA: A Question Answering Challenge Targeting Commonsense Knowledge](https://arxiv.org/abs/1811.00937), NAACL 2019
 
 ### Multimodal Reinforcement Learning
 
@@ -277,18 +184,6 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 [Learning to Speak and Act in a Fantasy Text Adventure Game](https://arxiv.org/abs/1903.03094), arXiv 2019 [[code]](https://parl.ai/projects/light/)
 
 [Language as an Abstraction for Hierarchical Deep Reinforcement Learning](https://arxiv.org/abs/1906.07343), NeurIPS 2019
-
-[Hierarchical Decision Making by Generating and Following Natural Language Instructions](https://arxiv.org/abs/1906.00744), NeurIPS 2019 [[code]](https://github.com/facebookresearch/minirts)
-
-[Habitat: A Platform for Embodied AI Research](https://arxiv.org/abs/1904.01201), ICCV 2019 [[code]](https://aihabitat.org/)
-
-[Multimodal Hierarchical Reinforcement Learning Policy for Task-Oriented Visual Dialog](https://arxiv.org/abs/1805.03257), SIGDIAL 2018
-
-[Mapping Instructions and Visual Observations to Actions with Reinforcement Learning](https://www.cs.cornell.edu/~dkm/papers/mla-emnlp.2017.pdf), EMNLP 2017
-
-[Reinforcement Learning for Mapping Instructions to Actions](https://people.csail.mit.edu/regina/my_papers/RL.pdf), ACL 2009
-
-
 
 
 ### Affect Recognition and Multimodal Language
@@ -311,56 +206,12 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 [End-to-End Multimodal Emotion Recognition using Deep Neural Networks](https://arxiv.org/abs/1704.08619), arXiv 2017
 
-[AMHUSE - A Multimodal dataset for HUmor SEnsing](https://dl.acm.org/citation.cfm?id=3136806), ICMI 2017 [[code]](http://amhuse.phuselab.di.unimi.it/)
-
-[Decoding Children’s Social Behavior](http://www.cbi.gatech.edu/mmdb/docs/mmdb_paper.pdf), CVPR 2013 [[code]](http://www.cbi.gatech.edu/mmdb/)
-
-[Collecting Large, Richly Annotated Facial-Expression Databases from Movies](http://users.cecs.anu.edu.au/%7Eadhall/Dhall_Goecke_Lucey_Gedeon_M_2012.pdf), IEEE Multimedia 2012 [[code]](https://cs.anu.edu.au/few/AFEW.html)
-
-[The Interactive Emotional Dyadic Motion Capture (IEMOCAP) Database](https://sail.usc.edu/iemocap/Busso_2008_iemocap.pdf), 2008 [[code]](https://sail.usc.edu/iemocap/)
-
-### Healthcare
-
-[Multimodal Co-Attention Transformer for Survival Prediction in Gigapixel Whole Slide Images](https://openaccess.thecvf.com/content/ICCV2021/html/Chen_Multimodal_Co-Attention_Transformer_for_Survival_Prediction_in_Gigapixel_Whole_Slide_ICCV_2021_paper.html), ICCV, 2021
-
-[PET-Guided Attention Network for Segmentation of Lung Tumors from PET/CT Images](https://rdcu.be/c8WWl), GCPR 2020 [[code]](https://github.com/pvk95/PAG)
-
-[Pathomic Fusion: An Integrated Framework for Fusing Histopathology and Genomic Features for Cancer Diagnosis and Prognosis](https://arxiv.org/abs/1912.08937), IEEE TMI, 2020
-
-[Leveraging Medical Visual Question Answering with Supporting Facts](https://arxiv.org/abs/1905.12008), arXiv 2019
-
-[Unsupervised Multimodal Representation Learning across Medical Images and Reports](https://arxiv.org/abs/1811.08615), ML4H 2018
-
-[Multimodal Medical Image Retrieval based on Latent Topic Modeling](https://aiforsocialgood.github.io/2018/pdfs/track1/75_aisg_neurips2018.pdf), ML4H 2018
-
-[Improving Hospital Mortality Prediction with Medical Named Entities and Multimodal Learning](https://arxiv.org/abs/1811.12276), ML4H 2018
-
-[Knowledge-driven Generative Subspaces for Modeling Multi-view Dependencies in Medical Data](https://arxiv.org/abs/1812.00509), ML4H 2018
-
-[Multimodal Depression Detection: Fusion Analysis of Paralinguistic, Head Pose and Eye Gaze Behaviors](https://ieeexplore.ieee.org/document/7763752), TAC 2018
-
-[Learning the Joint Representation of Heterogeneous Temporal Events for Clinical Endpoint Prediction](https://arxiv.org/abs/1803.04837), AAAI 2018
-
-[Understanding Coagulopathy using Multi-view Data in the Presence of Sub-Cohorts: A Hierarchical Subspace Approach](http://mucmd.org/CameraReadySubmissions/67%5CCameraReadySubmission%5Cunderstanding-coagulopathy-multi%20(6).pdf), MLHC 2017
-
-[Machine Learning in Multimodal Medical Imaging](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5357511/), 2017
-
-[Cross-modal Recurrent Models for Weight Objective Prediction from Multimodal Time-series Data](https://arxiv.org/abs/1709.08073), ML4H 2017
-
-[SimSensei Kiosk: A Virtual Human Interviewer for Healthcare Decision Support](https://dl.acm.org/citation.cfm?id=2617388.2617415), AAMAS 2014
-
-[Dyadic Behavior Analysis in Depression Severity Assessment Interviews](https://dl.acm.org/citation.cfm?doid=2663204.2663238), ICMI 2014
-
-[Audiovisual Behavior Descriptors for Depression Assessment](https://dl.acm.org/citation.cfm?doid=2522848.2522886), ICMI 2013
-
 
 ### Human AI Interaction
 
 [Multimodal Human Computer Interaction: A Survey](https://link.springer.com/chapter/10.1007/11573425_1), HCI 2005
 
 [Affective multimodal human-computer interaction](https://dl.acm.org/doi/10.1145/1101149.1101299), Multimedia 2005
-
-[Building a multimodal human-robot interface](https://ieeexplore.ieee.org/abstract/document/1183338?casa_token=tdKeY0Q0e-4AAAAA:XfKwp5Di1O5bCEOnebeaS58waSbWm80lxNuY8IhWW7DqDLvRQj-8ettJW1NrFrmoR_ShudTgzw), IEEE Intelligent Systems 2001
 
 
 # Workshops
