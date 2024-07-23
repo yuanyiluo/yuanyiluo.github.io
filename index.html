@@ -13,7 +13,7 @@
 
     <script>
         document.getElementById('paperBtn').addEventListener('click', function() {
-            fetch('README.md')
+            fetch('paper/multimodal-ml.md')
                 .then(response => response.text())
                 .then(text => {
                     document.getElementById('content').innerHTML = marked.parse(text);
