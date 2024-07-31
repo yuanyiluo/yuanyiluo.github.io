@@ -14,6 +14,7 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 
 * [Survey Papers](#survey-papers)
 * [Core Areas](#core-areas)
+  * [Vision](#vision)
   * [Multimodal General Learning](#multimodal-general-learning)
   * [Multimodal Larage Model](#multimodal-larage-Model)
   * [Missing or Imperfect Modalities](#missing-or-imperfect-modalities)
@@ -57,6 +58,9 @@ Public course content and lecture videos from [11-777 Multimodal Machine Learnin
 [A Survey of Socially Interactive Robots](https://www.cs.cmu.edu/~illah/PAPERS/socialroboticssurvey.pdf), 2003
 
 ## Core Areas
+
+### Vision
+[Segment Anything](https://arxiv.org/pdf/2304.02643, https://segment-anything.com/), 2023
 
 ### Multimodal General Learning
 [Self-Supervised Learning in Event Sequences: A Comparative Study and Hybrid Approach of Generative Modeling and Contrastive Learning](https://arxiv.org/abs/2401.15935), arXiv 2024
